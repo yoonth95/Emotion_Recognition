@@ -1,1 +1,28 @@
 # Emotion_Recognition
+
+[Data-Analysis_Object-Detection](https://github.com/yoonth95/Data-Analysis_Object-Detection) 의 프로젝트에서 사용한 Emotion Recognition 입니다.
+
+![result_image](https://user-images.githubusercontent.com/78673090/140088202-5a77b496-f7a7-4137-af25-cd9f253f0f8e.jpg)
+
+![Emotion_Recognition](https://user-images.githubusercontent.com/78673090/140088236-1c2aa280-8374-4f2c-92f6-85828af96b59.gif)
+
+
+## 1. [FER_CNN](https://github.com/yoonth95/Emotion_Recognition/blob/master/FER_CNN.ipynb)
+- Dataset : [Facial-Expression-Recognition](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+- Kaggle의 FER2013 데이터를 사용
+- CNN 과정 진행
+- Augmentation을 사용하여 정확도 향상
+- callback으로 모델 저장
+<br>
+
+![제목 없음](https://user-images.githubusercontent.com/78673090/140089300-30ae28fb-7f49-4cd7-a2c8-cfb0f1e34b08.png)
+<br>
+
+![제목 없음2](https://user-images.githubusercontent.com/78673090/140089339-ca037491-a92f-4796-983d-f75a74d9f36a.png)
+<br>
+
+## 2. [MTCNN_Image_Video](https://github.com/yoonth95/Emotion_Recognition/blob/master/MTCNN_Image_Video.ipynb)
+- Haar 모듈은 속도는 빠르지만 정확도는 부족
+- MTCNN 모듈은 속도는 조금 느리지만 정확도는 높음
+- 얼굴 인식의 정확도를 높이고자 MTCNN 모듈 사용
+- 학습시킨 모델로 얼굴의 표정 감지
