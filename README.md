@@ -22,7 +22,7 @@
 <br>
 
 ## 2. [MTCNN_Image_Video](https://github.com/yoonth95/Emotion_Recognition/blob/master/MTCNN_Image_Video.ipynb)
-- Haar 모듈은 속도는 빠르지만 정확도는 부족
+- Haar Cascade Classifier은 속도는 빠르지만 정확도는 부족
 - MTCNN 모듈은 속도는 조금 느리지만 정확도는 높음
 - 얼굴 인식의 정확도를 높이고자 MTCNN 모듈 사용
 - 학습시킨 모델로 얼굴의 표정 감지
