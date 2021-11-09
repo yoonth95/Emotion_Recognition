@@ -27,6 +27,14 @@
 - 얼굴 인식의 정확도를 높이고자 MTCNN 모듈 사용
 - 학습시킨 모델로 얼굴의 표정 감지
 
+## 3. [Mediapipe_Webcam](https://github.com/yoonth95/Emotion_Recognition/blob/master/Mediapipe_Webcam.py)
+- Google에서 제공하는 Mediapipe 모델로 경량 모델이라 CPU 및 모바일 장치에서도 사용가능
+- 다른 얼굴 인식 모듈에 비해 속도가 빠르고 얼굴 인식 정확도도 높음
+
+**웹캠 인식 속도 비교**
+- MTCNN으로 실행했을 시 평균 1fps의 속도
+- Mediapipe로 실행했을 시 평균 15fps의 속도가 나옴
+
 ## 3. 개선점
 - 학습용 데이터셋의 7가지 표정이 사람이 봐도 표정을 모르는 경우가 있어 정확도가 떨어지기 때문에 기쁨과 슬픔의 표정을 눈과 입의 포인트로 잡아 정확도를 높일 예정
-- 인식 속도가 낮아 웹캠에 적용하기 힘듬
+- 인식 속도가 낮아 웹캠에 적용하기 힘듬 (Mediapipe로 해결)
